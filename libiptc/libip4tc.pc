@@ -1,0 +1,10 @@
+prefix=/home/haizhi/download/iptables_igt/iptables-20160826/tmp_install
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name:		libip4tc
+Description:	iptables IPv4 ruleset ADT and kernel interface
+Version:	1.6.0
+Libs:		-L${libdir} -lip4tc
+Cflags:		-I${includedir}

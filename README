@@ -1,0 +1,9 @@
+build:
+#./autogen.sh
+#./configure --disable-nftables --disable-ipv6 --prefix=<install path>
+# make
+# make install
+
+
+downland URL:
+ftp://ftp.netfilter.org/pub/iptables/snapshot/
