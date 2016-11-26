@@ -1,6 +1,6 @@
 build:
 #./autogen.sh
-#./configure --disable-nftables --disable-ipv6 --prefix=<install path>
+#./configure --host=arm-linux --disable-nftables --disable-ipv6 --prefix=<install path>
 # make
 # make install
 
